@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, render_template
-from recommender import recommend
+from backend.recommender import recommend
+
 
 app = Flask(
     __name__,
